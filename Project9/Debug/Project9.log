@@ -1,0 +1,65 @@
+﻿Build started 2014-10-28 23:10:02.
+     1>Project "C:\Users\hujdołs\Documents\Project9\Project9\Project9.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TestglObjectFactory.cpp
+         TestglObjectFactory.cpp
+     1>c:\users\hujdołs\documents\project9\project9\glob\maupa.h(3897): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\hujdołs\documents\project9\project9\glob\maupa.h(7772): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\hujdołs\documents\project9\project9\glob\kuko.h(38585): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\hujdołs\documents\project9\project9\glob\kuko.h(77148): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hujdołs\Documents\Project9\Debug\Project9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hujdołs\Documents\Project9\Debug\Project9.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hujdołs\Documents\Project9\Debug\Project9.lib" /MACHINE:X86 Debug\AmbientLight.obj
+         Debug\AnimationListener.obj
+         Debug\Application.obj
+         Debug\CameraPosition.obj
+         Debug\ClutchSpinAnimation.obj
+         Debug\Color.obj
+         Debug\common.obj
+         Debug\DirectionalLight.obj
+         Debug\FPSCamera.obj
+         Debug\FreezeAnimation.obj
+         Debug\GarageObjectFactory.obj
+         Debug\GearBoxViewCamera.obj
+         Debug\GearChangeApplication.obj
+         Debug\glCamera.obj
+         Debug\glModel.obj
+         Debug\glModelAnimation.obj
+         Debug\globject.obj
+         Debug\glObjectAnimation.obj
+         Debug\glObjectDraw.obj
+         Debug\glObjectDrawable.obj
+         Debug\glObjectDrawableComposite.obj
+         Debug\glObjectFactory.obj
+         Debug\glProgram.obj
+         Debug\KeyboardController.obj
+         Debug\KeyListener.obj
+         Debug\main.obj
+         Debug\Material.obj
+         Debug\MatrixAnimation.obj
+         Debug\MouseController.obj
+         Debug\MouseListener.obj
+         Debug\MoveAnimation.obj
+         Debug\PointLight.obj
+         Debug\PointLightsData.obj
+         Debug\RotationAnimation.obj
+         Debug\scene.obj
+         Debug\SceneFeature.obj
+         Debug\SceneFeaturesFactory.obj
+         Debug\skybox.obj
+         Debug\sphere.obj
+         Debug\SpinAnimation.obj
+         Debug\StackAnimation.obj
+         Debug\StaticCamera.obj
+         Debug\TeleportAnimation.obj
+         Debug\TestglObjectFactory.obj
+         Debug\TestSceneFeaturesFactory.obj
+         Debug\texture.obj
+         Debug\TimeMilis.obj
+         Debug\TimerController.obj
+         Debug\TimerListener.obj
+         Project9.vcxproj -> C:\Users\hujdołs\Documents\Project9\Debug\Project9.exe
+     1>Done Building Project "C:\Users\hujdołs\Documents\Project9\Project9\Project9.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.73

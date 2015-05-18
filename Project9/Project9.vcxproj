@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1C1BE01-69EB-41D5-BA6A-8234B7EF9D6B}</ProjectGuid>
+    <RootNamespace>Project9</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AmbientLight.cpp" />
+    <ClCompile Include="AnimationListener.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="CameraPosition.cpp" />
+    <ClCompile Include="ClutchSpinAnimation.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="DirectionalLight.cpp" />
+    <ClCompile Include="FPSCamera.cpp" />
+    <ClCompile Include="FreezeAnimation.cpp" />
+    <ClCompile Include="GarageObjectFactory.cpp" />
+    <ClCompile Include="GearBoxViewCamera.cpp" />
+    <ClCompile Include="GearChangeApplication.cpp" />
+    <ClCompile Include="glCamera.cpp" />
+    <ClCompile Include="glModel.cpp" />
+    <ClCompile Include="glModelAnimation.cpp" />
+    <ClCompile Include="globject.cpp" />
+    <ClCompile Include="glObjectAnimation.cpp" />
+    <ClCompile Include="glObjectDraw.cpp" />
+    <ClCompile Include="glObjectDrawable.cpp" />
+    <ClCompile Include="glObjectDrawableComposite.cpp" />
+    <ClCompile Include="glObjectFactory.cpp" />
+    <ClCompile Include="glProgram.cpp" />
+    <ClCompile Include="KeyboardController.cpp" />
+    <ClCompile Include="KeyListener.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MatrixAnimation.cpp" />
+    <ClCompile Include="MouseController.cpp" />
+    <ClCompile Include="MouseListener.cpp" />
+    <ClCompile Include="MoveAnimation.cpp" />
+    <ClCompile Include="PointLight.cpp" />
+    <ClCompile Include="PointLightsData.cpp" />
+    <ClCompile Include="RotationAnimation.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="SceneFeature.cpp" />
+    <ClCompile Include="SceneFeaturesFactory.cpp" />
+    <ClCompile Include="skybox.cpp" />
+    <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="SpinAnimation.cpp" />
+    <ClCompile Include="StackAnimation.cpp" />
+    <ClCompile Include="StaticCamera.cpp" />
+    <ClCompile Include="TeleportAnimation.cpp" />
+    <ClCompile Include="TestglObjectFactory.cpp" />
+    <ClCompile Include="TestSceneFeaturesFactory.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="TimeMilis.cpp" />
+    <ClCompile Include="TimerController.cpp" />
+    <ClCompile Include="TimerListener.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmbientLight.h" />
+    <ClInclude Include="AnimationListener.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="CameraPosition.h" />
+    <ClInclude Include="ClutchSpinAnimation.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="DirectionalLight.h" />
+    <ClInclude Include="FPSCamera.h" />
+    <ClInclude Include="FreezeAnimation.h" />
+    <ClInclude Include="GarageObjectFactory.h" />
+    <ClInclude Include="GearBoxViewCamera.h" />
+    <ClInclude Include="GearChangeApplication.h" />
+    <ClInclude Include="glCamera.h" />
+    <ClInclude Include="glew.h" />
+    <ClInclude Include="glModel.h" />
+    <ClInclude Include="glModelAnimation.h" />
+    <ClInclude Include="globject.h" />
+    <ClInclude Include="glObjectAnimation.h" />
+    <ClInclude Include="glObjectDraw.h" />
+    <ClInclude Include="glObjectDrawable.h" />
+    <ClInclude Include="glObjectDrawableComposite.h" />
+    <ClInclude Include="glObjectFactory.h" />
+    <ClInclude Include="glProgram.h" />
+    <ClInclude Include="KeyboardController.h" />
+    <ClInclude Include="KeyListener.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Materials.h" />
+    <ClInclude Include="MatrixAnimation.h" />
+    <ClInclude Include="MouseController.h" />
+    <ClInclude Include="MouseListener.h" />
+    <ClInclude Include="MoveAnimation.h" />
+    <ClInclude Include="PointLight.h" />
+    <ClInclude Include="PointLightsData.h" />
+    <ClInclude Include="RotationAnimation.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="SceneFeature.h" />
+    <ClInclude Include="SceneFeaturesFactory.h" />
+    <ClInclude Include="skybox.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="SpinAnimation.h" />
+    <ClInclude Include="StackAnimation.h" />
+    <ClInclude Include="StaticCamera.h" />
+    <ClInclude Include="TeleportAnimation.h" />
+    <ClInclude Include="TestglObjectFactory.h" />
+    <ClInclude Include="TestSceneFeaturesFactory.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="TimeMilis.h" />
+    <ClInclude Include="TimerController.h" />
+    <ClInclude Include="TimerListener.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
